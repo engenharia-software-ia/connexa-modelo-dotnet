@@ -273,7 +273,7 @@ A preparação descrita no [roteiro principal de sprint](https://github.com/enge
 | Swagger UI apenas como visualizador do OpenAPI nativo | O contrato é gerado pelo próprio ASP.NET Core; o pacote só desenha a página |
 | `nuget.config` com somente o nuget.org | O restore não depende das fontes configuradas em cada máquina |
 | Dependências da sprint já incluídas (EF Core, Npgsql, OpenAPI, React Hook Form, Zod) | As Tasks proíbem o agente de incluir dependências; o que a equipe precisa já está disponível |
-| Sem testes de ponta a ponta no navegador (Playwright) | Fora do escopo da Sprint 1; o roteiro da Atividade de Sprint exige verificação manual dos cenários na interface |
+| Sem testes de ponta a ponta no navegador (Playwright) | Fora do escopo da Sprint 1; o [roteiro principal de sprint (120 min)](https://github.com/engenharia-software-ia/atividade-sprint-connexa/blob/main/Roteiro_Sprint1_120min.md) exige verificação manual dos cenários na interface |
 | Versões fixas no `Directory.Packages.props` e no `package.json` | O build é reprodutível; atualizar é uma decisão registrada em ADR |
 
 ---
